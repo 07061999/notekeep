@@ -117,7 +117,6 @@
                                         </div>
                                     </div>
                                 </li>
-                                <li class="p-1"><a class="pl-1 text-deco-none text-black nav" href="about.php">About</a></li>
                                 <li class="p-1"><a class="pl-1 text-deco-none text-black nav" href="contact.php">Contact</a></li>
                             </ul>
                         </div>

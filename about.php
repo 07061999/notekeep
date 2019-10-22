@@ -8,7 +8,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Computer-Store | About</title>
+        <title>RoomRent | About</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="shortcut icon" type="image/png" href="img/favicon.png" >
@@ -146,7 +146,6 @@
                                     </div>
                                 </div>
                             </li>
-                            <li class="p-1"><a class="pl-1 text-deco-none text-black nav" href="about.php">About</a></li>
                             <li class="p-1"><a class="pl-1 text-deco-none text-black nav" href="contact.php">Contact</a></li>
                         </ul>
                     </div>

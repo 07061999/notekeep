@@ -68,7 +68,6 @@
                                 <li class="p-1"><a class="pl-1 text-deco-none text-black nav" href="index.php">Home</a></li>
                                 <li class="p-1">
                                     <div class="dropdown">
-                                        <a style="cursor:pointer" class="pl-1 text-deco-none text-black nav" onclick="showHide()">Catergories</a>
                                         <div style="display:none;" id="dropdown-content" class="dropdown-content shadow-sm text-center mr-2">
                                                 <div class="d-flex flex-wrap p-sm">
                                                     <div style="background:#e0e0e0;" class="m-1" >
@@ -148,7 +147,6 @@
                                         </div>
                                     </div>
                                 </li>
-                                <li class="p-1"><a class="pl-1 text-deco-none text-black nav" href="about.php">About</a></li>
                                 <li class="p-1"><a class="pl-1 text-deco-none text-black nav" href="contact.php">Contact</a></li>
                             </ul>
                         </div>

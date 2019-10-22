@@ -115,7 +115,7 @@
           });
           });
      </script>
-     <title>Computer Store| My Orders</title>
+     <title>RoomRent| My Orders</title>
 </head>
 <body>
      <!-- Navbar Starts -->
@@ -133,8 +133,6 @@
                          <div class="menu">
                               <ul class="ls-none active current-item">
                                    <li class="p-1"><a class="pl-1 text-deco-none text-black nav" href="../index.php">Home</a></li>
-                                   <li class="p-1"><a class="pl-1 text-deco-none text-black nav" href="../builds/system-build.php">SystemBuild</a></li>
-                                   <li class="p-1"><a class="pl-1 text-deco-none text-black nav" href="../builds/completed_build.php">CompletedBuild</a></li>
                                    <li class="p-1"><a class="pl-1 text-deco-none text-black nav" href="../about.php">About</a></li>
                                    <li class="p-1"><a class="pl-1 text-deco-none text-black nav" href="../contact.php">Contact</a></li>
                               </ul>
@@ -458,9 +456,8 @@
                     </div>
                     <div class="b-1 text-white w-max-50 ml-50 mb-3"></div>
                     <div class="p-1">
-                         <a class="m-1 b-1 b-rad-2 text-white p-1 footer-link" href="https://www.instagram.com/__mr.useless_404__/"><i class="fa fa-instagram"></i></a> 
-                         <a class="m-1 b-1 b-rad-2 text-white p-1 footer-link" href="https://www.facebook.com/agnel.selv"><i class="fa fa-facebook"></i></a> 
-                         <a class="m-1 b-1 b-rad-2 text-white p-1 footer-link" href="https://twitter.com/Agnel04454713"><i class="fa fa-twitter"></i></a> 
+                         <a class="m-1 b-1 b-rad-2 text-white p-1 footer-link" href="https://www.instagram.com/agraharimanishkumar/"><i class="fa fa-instagram"></i></a> 
+                         <a class="m-1 b-1 b-rad-2 text-white p-1 footer-link" href="https://m.facebook.com/home.php?_rdr"><i class="fa fa-facebook"></i></a> 
                          <a class="m-1 b-1 b-rad-2 text-white p-1 footer-link" href="https://www.youtube.com/channel/UCsj3TXPOn0Xn3XYTq-YBd8w?view_as=subscriber"><i class="fa fa-youtube"></i></a> 
                     </div>
                     <div>

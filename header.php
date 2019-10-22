@@ -41,8 +41,6 @@
                     <div class="menu">
                         <ul class="ls-none active current-item">
                             <li class="p-1"><a class="pl-1 text-deco-none text-black nav" href="index.php">Home</a></li>
-                            <li class="p-1"><a class="pl-1 text-deco-none text-black nav" href="builds/system-build.php">SystemBuild</a></li>
-                            <li class="p-1"><a class="pl-1 text-deco-none text-black nav" href="builds/completed_build.php">CompletedBuild</a></li>
                             <li class="p-1"><a class="pl-1 text-deco-none text-black nav" href="about.php">About</a></li>
                             <li class="p-1"><a class="pl-1 text-deco-none text-black nav" href="contact.php">Contact</a></li>
                         </ul>

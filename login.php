@@ -2,7 +2,7 @@
     // include_path='C:\xampp\php\PEAR';
     require_once"./includes/config.inc.php";
     $loginURL = $gClient->createAuthUrl();
-    require "header.php"
+    require "header.php";
 ?>
 <style>
         body{
