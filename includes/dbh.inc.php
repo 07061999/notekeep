@@ -6,7 +6,7 @@ define('PASSWORD','8652895413');
 $servername = "localhost";
 $dBUsername = "root";
 $dBPassword = "";
-$dBName = "roomrent";
+$dBName = "notekeep";
 
 $conn = mysqli_connect($servername, $dBUsername, $dBPassword, $dBName);
 
