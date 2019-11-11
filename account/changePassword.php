@@ -44,10 +44,7 @@
                          <div class="menu">
                               <ul class="ls-none active current-item">
                                    <li class="p-1"><a class="pl-1 text-deco-none text-black nav" href="../index.php">Home</a></li>
-                                   <li class="p-1"><a class="pl-1 text-deco-none text-black nav" href="../builds/system-build.php">SystemBuild</a></li>
-                                   <li class="p-1"><a class="pl-1 text-deco-none text-black nav" href="../builds/completed_build.php">CompletedBuild</a></li>
-                                   <li class="p-1"><a class="pl-1 text-deco-none text-black nav" href="../about.php">About</a></li>
-                                   <li class="p-1"><a class="pl-1 text-deco-none text-black nav" href="../contact.php">Contact</a></li>
+               
                               </ul>
                          </div>
                          <div>
@@ -57,25 +54,21 @@
                     <div class="mt-1">
                          <?php
                               if(isset($_SESSION['userId'])){
-                                   echo'<form action="includes/logout.inc.php" method="post">
+                                   echo'<form action="../../includes/logout.inc.php" method="post">
                                    <div class="d-flex jcfe">
-                                   <div class="cart-btn">
-                                   <div style="font-size:30px;" class="nav-icon"><a href="../cart/cart.php"><i style="color:black;" class="fas fa-cart-plus"></i></a></div>
-                                   <div class="cart-items">'?><?php cartcount(); echo'</div>
-                                   </div>
-                                   <div style="font-size:30px; padding:0 15px;" class="text-black"><a class="text-black" href="myAccount.php?acc"><div class="mx-1" ><i class="fas fa-user-circle"></i></div></a></div>
-                                   <div style="margin:10px 0;"><a class="text-deco-none signup-button-field mr-2 text-black pr-1" href="../includes/logout.inc.php" name="logout-submit">Logout</a></div>
+                                   <div style="font-size:30px; padding:0 15px;" class="text-black"><a class="text-black" href="./myAccount.php?acc"><div class="mx-1" ><i class="fas fa-user-circle"></i></div></a></div>
+                                   <div style="margin-top:10px;"><a class="text-deco-none signup-button-field mr-2 text-black pr-1" href="includes/logout.inc.php" name="logout-submit">Logout</a></div>
                                    </div>
                                    </form>';
-                                   }
-                                   else{
+                               }
+                               else{
                                    echo'
                                    <div class="container d-flex flex-row jcfe">
-                                        <div ><a class="text-deco-none signup-button-field mr-2 text-black pr-1" href="../signup.php">Signup</a></div>
-                                        <div><a class="text-deco-none text-black pr-1 mr-2 nav loginphp" href="../login.php">Login</a></div>
+                                       <div style="margin-top:10px;"><a class="text-deco-none signup-button-field mr-2 text-black pr-1" href="signup.php">Signup</a></div>
+                                       <div style="margin-top:10px;"><a class="text-deco-none text-black pr-1 mr-2 nav loginphp" href="login.php">Login</a></div>
                                    </div>
                                    ';
-                                   }
+                               }
                          ?>
                     </div>
                </div>
@@ -133,7 +126,7 @@
                                    $userName = $row['uidUsers'];
                                    // print($userName);
                                    ?>
-                                   <form action="changePassword.php" method="POST" enctype="multipart/form-data">
+                                   <form action="" method="POST" enctype="multipart/form-data">
                                         <div class="mt-2">
                                              <div class="text-center">
                                                   <input type="password" name="pass" placeholder="Enter your Password..." class="input-field-f b-rad-2">
@@ -153,9 +146,5 @@
           </div>
      </div>
      <!-- Content Ends -->
-
-     <!-- Footer Starts  -->
-     <?php require'../footer.php';?>
-     <!-- Footer Ends -->
 </body>
 </html>

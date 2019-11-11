@@ -33,7 +33,7 @@ if(isset($_POST['login-submit'])){
                 session_start();
                 $_SESSION['userId'] = $row['isUsers'];
                 $_SESSION['userUid'] = $row['uidUsers'];
-                header("Location: ../indexcopy.php?login=sucess");
+                header("Location: ../index.php");
                 exit();
                 
             }

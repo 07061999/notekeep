@@ -26,7 +26,7 @@ require_once 'dbh.inc.php';
                     <p>
                          Thank you for signing  on our website. Please click on the link below to update you password.
                     </p>
-                    <a href="http://localhost/computer-store/update-pwd.php">
+                    <a href="http://localhost/roomrent/update-pwd.php">
                          Verify your Email
                     </a>
                     <script src="" async defer></script>

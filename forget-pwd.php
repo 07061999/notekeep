@@ -1,6 +1,4 @@
-<?php
-    require "header.php"
-?>
+<?php require"header.php" ?>
 <?php
     require './includes/dbh.inc.php';
     if(isset($_POST['frgtPwd-submit'])){
@@ -80,7 +78,9 @@
             border-bottom: 900px solid transparent;
         }
     </style>
+    
     <main class=" bg-color h-min-100">
+    
         <div class="d-flex section">
             <div class="imagebox mt-lg">
                 <div class="container">

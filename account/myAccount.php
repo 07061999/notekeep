@@ -50,8 +50,7 @@
                          <div class="menu">
                               <ul class="ls-none active current-item">
                                    <li class="p-1"><a class="pl-1 text-deco-none text-black nav" href="../index.php">Home</a></li>
-                                   <li class="p-1"><a class="pl-1 text-deco-none text-black nav" href="../about.php">About</a></li>
-                                   <li class="p-1"><a class="pl-1 text-deco-none text-black nav" href="../contact.php">Contact</a></li>
+                                  
                               </ul>
                          </div>
                          <div>
@@ -142,16 +141,6 @@
                                    <div style="font-size:24px;" class="white w-100 text-left p-lg">
                                         <div class="d-flex flex-col jcc">
                                              <div class="mt-2 mb-sm">
-                                                  <a style="color:#28AB87" class="text-deco-none  font-change" href="myorders.php?order">
-                                                       <i style="padding-right:20px; color:#28AB87" class="fas fa-list"></i> MyOrders
-                                                  </a>
-                                             </div>
-                                             <div class="mt-2 mb-sm">
-                                                  <a style="color:#28AB87" class="text-deco-none  font-change" href="addroom.php">
-                                                       <i style="padding-right:20px; color:#28AB87" class="fas fa-list"></i> Add Rooms
-                                                  </a>
-                                             </div>
-                                             <div class="mt-2 mb-sm">
                                                   <a style="color:#28AB87" class="text-deco-none  font-change" href= "editaccount.php">
                                                        <i style="padding-right:20px; color:#28AB87" class="fas fa-edit"></i>Edit Account
                                                   </a>
@@ -179,6 +168,5 @@
                </div>
           </div>
           <script src="" async defer></script>
-<?php require'../footer.php';?>
      </body>
 </html>

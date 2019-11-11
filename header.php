@@ -7,7 +7,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Computer-Store</title>
+        <title>Room-Rent</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="shortcut icon" type="image/png" href="img/favicon.png" >
@@ -25,9 +25,16 @@
             });
             });
         </script>
+        <script>
+function myFunction() {
+  var x = "Total Width: " + screen.width + "px";
+  document.getElementById("demo").innerHTML = x;
+  alert(x);
+}
+</script>
     </head>
     <body>
-    <div style="position:sticky;top:0px;z-index:1;height:7vh;" class="d-flex flex-col w-100 white">
+    <div style="position:sticky;top:0px;z-index:1;height:10vh;" class="d-flex flex-col w-100 white">
             <div class="d-flex jcsb">
                 <div class="d-flex flex-row">
                     <div>
@@ -40,9 +47,8 @@
                     </div>
                     <div class="menu">
                         <ul class="ls-none active current-item">
-                            <li class="p-1"><a class="pl-1 text-deco-none text-black nav" href="index.php">Home</a></li>
-                            <li class="p-1"><a class="pl-1 text-deco-none text-black nav" href="about.php">About</a></li>
-                            <li class="p-1"><a class="pl-1 text-deco-none text-black nav" href="contact.php">Contact</a></li>
+                            <li class="p-1"><a class="pl-1 text-deco-none text-black nav" href="notes.php">Notes</a></li>
+                            <li class="p-1"><a class="pl-1 text-deco-none text-black nav" href="archive.php">Acrhive</a></li>
                         </ul>
                     </div>
                     <div>

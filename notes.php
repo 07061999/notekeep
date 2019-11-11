@@ -1,14 +1,27 @@
 
 <?php
-  
+    require "./includes/dbh.inc.php";
     require 'header.php';
- 
+    session_start();
+    $userID = $_SESSION['userId'];
 ?>
-    <body>
-        
+ 
+        <style>
+            .textarea {
+                width: 100%;
+                height: 150px;
+                padding: 12px 20px;
+                box-sizing: border-box;
+                border: 2px solid #ccc;
+                border-radius: 4px;
+                background-color: #f8f8f8;
+                font-size: 16px; 
+                resize: none;
+             }
+        </style>
+         <body>
         <div>
-        
-                <?php
+                        <?php
                                 if (isset($_GET["empty"])){
                                     if($_GET["empty"] == "title"){
                                         echo'<p class="pt-1" style="font-size:12px; color:red">Please give title </p>';
@@ -26,7 +39,7 @@
                                     }
                                 }
                                
-                ?>
+                        ?>
             <form action="includes/addnotes.inc.php" method="post">
                                     <input  style='text-align:center; font-size: 20px' class="input-field " type="text" name="title" placeholder="title"><br>
                                     <textarea class='textarea' name='content' placeholder="Notes....."></textarea>
@@ -64,7 +77,11 @@
                                             <div>
                                                 <?php echo $content ?>
                                             </div>
+                                            
+                                            <span>
                                             <a href="includes/archive.inc.php?noteToarchive=<?php echo $note_id?>">move to archive</a>
+                                            <a href="includes/addnotes.inc.php?delete=<?php echo $note_id?>">delete</a> 
+                                            </span>
                                         </div>
                                     </div>
                                 <div>
@@ -77,6 +94,3 @@
             </div> 
             <body>
         
-
-
-
